@@ -7,8 +7,13 @@
 
 import SwiftUI
 import SPMSubmodule
+import SPMSubmodule2
 
 struct ContentView: View {
+
+    let subModule = SPMSubmodule()
+    let subModule2 = SPMSubmodule2()
+    
     var body: some View {
         Text("Hello, world!")
             .padding()

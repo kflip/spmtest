@@ -8,7 +8,7 @@
 import XCTest
 @testable import Spacy
 
-// import SPMSubmodule
+import SPMSubmoduleSharedTest2
 
 class SpacyTests: XCTestCase {
 
@@ -21,11 +21,7 @@ class SpacyTests: XCTestCase {
     }
 
     func testExample() throws {
-
-        // todo: use SPMSubmodule.SharedMock
-        // let somethingFromSubmoduleTest = SharedMock()
-
-        XCTAssertTrue(true)
+        XCTAssertNotNil(SharedMock2())
     }
 
 }

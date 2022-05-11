@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		72726BFA282C4DE100EC7B6D /* SPMSubmodule in Frameworks */ = {isa = PBXBuildFile; productRef = 72726BF9282C4DE100EC7B6D /* SPMSubmodule */; };
+		72726BFD282C509800EC7B6D /* SPMSubmodule2 in Frameworks */ = {isa = PBXBuildFile; productRef = 72726BFC282C509800EC7B6D /* SPMSubmodule2 */; };
+		72726BFF282C514F00EC7B6D /* SPMSubmoduleSharedTest2 in Frameworks */ = {isa = PBXBuildFile; productRef = 72726BFE282C514F00EC7B6D /* SPMSubmoduleSharedTest2 */; };
 		72BCF43E282C4B1900A79717 /* SpacyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCF43D282C4B1900A79717 /* SpacyApp.swift */; };
 		72BCF440282C4B1900A79717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCF43F282C4B1900A79717 /* ContentView.swift */; };
 		72BCF442282C4B1B00A79717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BCF441282C4B1B00A79717 /* Assets.xcassets */; };
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72726BFB282C4F1500EC7B6D /* SPMSubmodule2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SPMSubmodule2; path = ../SPMSubmodule2; sourceTree = "<group>"; };
 		72BCF43A282C4B1900A79717 /* Spacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BCF43D282C4B1900A79717 /* SpacyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacyApp.swift; sourceTree = "<group>"; };
 		72BCF43F282C4B1900A79717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72726BFA282C4DE100EC7B6D /* SPMSubmodule in Frameworks */,
+				72726BFD282C509800EC7B6D /* SPMSubmodule2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72726BFF282C514F00EC7B6D /* SPMSubmoduleSharedTest2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 		72BCF431282C4B1900A79717 = {
 			isa = PBXGroup;
 			children = (
+				72726BFB282C4F1500EC7B6D /* SPMSubmodule2 */,
 				72BCF467282C4CC700A79717 /* SPMSubmodule */,
 				72BCF43C282C4B1900A79717 /* Spacy */,
 				72BCF44D282C4B1B00A79717 /* SpacyTests */,
@@ -127,6 +133,7 @@
 			name = Spacy;
 			packageProductDependencies = (
 				72726BF9282C4DE100EC7B6D /* SPMSubmodule */,
+				72726BFC282C509800EC7B6D /* SPMSubmodule2 */,
 			);
 			productName = Spacy;
 			productReference = 72BCF43A282C4B1900A79717 /* Spacy.app */;
@@ -146,6 +153,9 @@
 				72BCF44C282C4B1B00A79717 /* PBXTargetDependency */,
 			);
 			name = SpacyTests;
+			packageProductDependencies = (
+				72726BFE282C514F00EC7B6D /* SPMSubmoduleSharedTest2 */,
+			);
 			productName = SpacyTests;
 			productReference = 72BCF44A282C4B1B00A79717 /* SpacyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -484,6 +494,14 @@
 		72726BF9282C4DE100EC7B6D /* SPMSubmodule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SPMSubmodule;
+		};
+		72726BFC282C509800EC7B6D /* SPMSubmodule2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SPMSubmodule2;
+		};
+		72726BFE282C514F00EC7B6D /* SPMSubmoduleSharedTest2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SPMSubmoduleSharedTest2;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
