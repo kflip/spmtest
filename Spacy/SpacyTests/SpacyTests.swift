@@ -8,6 +8,8 @@
 import XCTest
 @testable import Spacy
 
+// import SPMSubmodule
+
 class SpacyTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -21,8 +23,9 @@ class SpacyTests: XCTestCase {
     func testExample() throws {
 
         // todo: use SPMSubmodule.SharedMock
+        // let somethingFromSubmoduleTest = SharedMock()
 
-       XCTAssertTrue(true)
+        XCTAssertTrue(true)
     }
 
 }
